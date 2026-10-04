@@ -1,0 +1,13 @@
+{
+  "name": "pathwise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PathWise: career & education guidance platform",
+  "scripts": {
+    "install:all": "npm --prefix backend install",
+    "migrate": "npm --prefix backend run migrate",
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend start"
+  },
+  "engines": { "node": ">=18" }
+}
